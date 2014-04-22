@@ -58,6 +58,14 @@ at the top,
 this csv file has 181 rows and 68 columns.
 
 For details on the variables, see `Codebook.md` 
+
+The script `run_analysis_verbose.R` provides extra information when run 
+interactively, such as the name of the working directory and the 
+dimensions and initial values of intermediate dataframes.  
+The shorter script `run_analysis_verbose.R` strips this information out 
+and just produces the csv files, but otherwise is the same.  
+Both scripts use the R packages `plyr` and `reshape2` to 
+take means of variables by individual and activity.
     
 
 
