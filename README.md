@@ -51,7 +51,7 @@ a particular activity. Since there are 30 individuals and they each do
 at the top, this txt file has 181 rows and 68 columns.
 
 The first 2 variable names identify the observation: `individual` runs 
-from 1 to 30; `activity` is one of 
+from 1 to 30; `activity` is (after I replaced numbers with words) one of 
 laying (presumably lying down), sitting, standing, walking, 
 walking_downstairs, and walking_upstairs.   
 The other 66 variable names are based on the originals, 
