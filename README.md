@@ -4,12 +4,12 @@ getting-and-cleaning-data
 Demonstration repository for peer assessment in Jeff Leek's Coursera 
 Getting and Cleaning Data course.
 
-The repository contains this `README.md`, two R scripts called `run_analysis.R` 
-and `run_analysis_verbose.R` 
+The repository contains this `README.md`, two R scripts 
+called `run_analysis.R` and `run_analysis_verbose.R` 
 and another markdown document called `Codebook.md` which explains the 
-variables in the two tidy csv files created by the R scipts: 
-`tidymeansandstds.csv` and `tidymeansofmeansandstds.csv`, the second of which 
-has been uploaded to the course website for peer review.
+variables the R scipts put in the two tidy csv files: 
+`tidymeansandstds.csv` and `tidymeansofmeansandstds.csv`, the second of 
+which has been uploaded to the course website for peer review.
 
 The following input files to the R script are assumed to be in the 
 working directory:
@@ -57,6 +57,14 @@ individual and activity.  Since there are 30 individuals and they each do
 at the top, 
 this csv file has 181 rows and 68 columns.
 
+The first 2 variable names identify the observation: `individual` runs 
+from 1 to 30; `activity` is one of 
+laying (presumably lying down), sitting, standing, walking, 
+walking_downstairs, and walking_upstairs.   
+The other 66 variables are based on the originals, but tidied 
+by moving to lower case and removing punctuation in particular 
+the four `(` `)` `,` and `-` which might otherwise  
+suggest functions, lists or subtraction if used in later code.
 For details on the variables, see `Codebook.md` 
 
 The script `run_analysis_verbose.R` provides extra information when run 
@@ -67,7 +75,5 @@ and just produces the csv files, but otherwise is the same.
 Both scripts use the R packages `plyr` and `reshape2` to 
 take means of variables by individual and activity.
     
-
-
 
    
