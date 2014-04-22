@@ -4,11 +4,15 @@ getting-and-cleaning-data
 Codebook
 --------
 
-This codebook explains the 68 columns of the files 
+This codebook explains the 68 columns of the tidy datafiles 
 `tidymeansandstds.txt` and `tidymeansofmeansandstds.txt` 
 produced by the R script `run_analysis.R` for 
 peer assessment in Jeff Leek's Coursera 
 Getting and Cleaning Data course. It is worth reading `READMED.md` too. 
+
+`tidymeansandstds.txt` and `tidymeansofmeansandstds.txt` each have 
+68 columns, delimited by spaces. The first row gives variable names. 
+There is no column of rownames or rownumbers.
 
 The first 2 columns identify the observation by the 
 individual undertaking a particular activity 
