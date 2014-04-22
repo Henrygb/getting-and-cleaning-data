@@ -5,7 +5,7 @@ Codebook
 --------
 
 This codebook explains the 68 columns of the files 
-`tidymeansandstds.csv` and `tidymeansofmeansandstds.csv` 
+`tidymeansandstds.txt` and `tidymeansofmeansandstds.txt` 
 produced by the R script `run_analysis.R` for 
 peer assessment in Jeff Leek's Coursera 
 Getting and Cleaning Data course. It is worth reading `READMED.md` too. 

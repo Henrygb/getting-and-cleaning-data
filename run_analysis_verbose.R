@@ -101,7 +101,7 @@ dim(tidymeansandstds )           #[1] 10299    68
 tidymeansandstds [1:6,1:6]
 
 ## Save tidymeansandstds 
-write.csv(tidymeansandstds, "tidymeansandstds.csv", row.names = FALSE) 
+write.table(tidymeansandstds, "tidymeansandstds.txt", row.names = FALSE) 
 
 ## Take means of means and standard deviations by individual and activity
 ##     using R packages plyr and reshape2
@@ -118,6 +118,6 @@ tidymeansofmeansandstds[1:6,1:6]
 dim(tidymeansofmeansandstds)     #[1] 180  68
 
 ## Save tidymeansofmeansandstds
-write.csv(tidymeansofmeansandstds, "tidymeansofmeansandstds.csv",
+write.table(tidymeansofmeansandstds, "tidymeansofmeansandstds.txt",
           row.names = FALSE) 
 

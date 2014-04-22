@@ -61,7 +61,7 @@ names(tidytestdata)[c(1,2)]  = c("individual","activity")
 tidymeansandstds <- rbind(tidytraindata, tidytestdata) 
 
 ## Save tidymeansandstds 
-write.csv(tidymeansandstds, "tidymeansandstds.csv", row.names = FALSE) 
+write.table(tidymeansandstds, "tidymeansandstds.txt", row.names = FALSE) 
 
 ## Take means of means and standard deviations by individual and activity
 ##     using R packages plyr and reshape2
@@ -72,6 +72,6 @@ tidymeansofmeansandstds <- dcast(meltedmeans,
                                  individual + activity ~ variable) 
 
 ## Save tidymeansofmeansandstds
-write.csv(tidymeansofmeansandstds, "tidymeansofmeansandstds.csv",
+write.table(tidymeansofmeansandstds, "tidymeansofmeansandstds.txt",
           row.names = FALSE) 
 
