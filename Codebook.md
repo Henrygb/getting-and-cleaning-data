@@ -1,5 +1,8 @@
-getting-and-cleaning-data
+getting-and-cleaning-data  
 =========================
+
+Codebook
+--------
 
 This codebook explains the 68 columns of the files 
 `tidymeansandstds.csv` and `tidymeansofmeansandstds.csv` 
@@ -66,76 +69,76 @@ most of the `std` variables have negative values,
 confusing in statistical terms unless the user remembers that this peculiar 
 scaling has been used.
 
-A full list of the 3rd to th 68th varibales is given below:   
+A full list of the 3rd to the 68th variables is given below:   
 
-  Variable                 Domain   Relative   Device     Jerk Direction  Mean or St. Dev.  
-  =================        ======   ========   ======     ==== =========  ================  
- tbodyaccmeanx              time      body   acceleration          X           mean         
- tbodyaccmeany              time      body   acceleration          Y           mean         
- tbodyaccmeanz              time      body   acceleration          Z           mean         
- tbodyaccstdx               time      body   acceleration          X     standard deviation 
- tbodyaccstdy               time      body   acceleration          Y     standard deviation 
- tbodyaccstdz               time      body   acceleration          Z     standard deviation 
- tgravityaccmeanx           time     gravity acceleration          X           mean         
- tgravityaccmeany           time     gravity acceleration          Y           mean         
- tgravityaccmeanz           time     gravity acceleration          Z           mean         
- tgravityaccstdx            time     gravity acceleration          X     standard deviation 
- tgravityaccstdy            time     gravity acceleration          Y     standard deviation 
- tgravityaccstdz            time     gravity acceleration          Z     standard deviation 
- tbodyaccjerkmeanx          time      body   acceleration jerk     X           mean         
- tbodyaccjerkmeany          time      body   acceleration jerk     Y           mean         
- tbodyaccjerkmeanz          time      body   acceleration jerk     Z           mean         
- tbodyaccjerkstdx           time      body   acceleration jerk     X     standard deviation 
- tbodyaccjerkstdy           time      body   acceleration jerk     Y     standard deviation 
- tbodyaccjerkstdz           time      body   acceleration jerk     Z     standard deviation 
- tbodygyromeanx             time      body    gyroscopic           X           mean         
- tbodygyromeany             time      body    gyroscopic           Y           mean         
- tbodygyromeanz             time      body    gyroscopic           Z           mean         
- tbodygyrostdx              time      body    gyroscopic           X     standard deviation 
- tbodygyrostdy              time      body    gyroscopic           Y     standard deviation 
- tbodygyrostdz              time      body    gyroscopic           Z     standard deviation 
- tbodygyrojerkmeanx         time      body    gyroscopic  jerk     X           mean         
- tbodygyrojerkmeany         time      body    gyroscopic  jerk     Y           mean         
- tbodygyrojerkmeanz         time      body    gyroscopic  jerk     Z           mean         
- tbodygyrojerkstdx          time      body    gyroscopic  jerk     X     standard deviation 
- tbodygyrojerkstdy          time      body    gyroscopic  jerk     Y     standard deviation 
- tbodygyrojerkstdz          time      body    gyroscopic  jerk     Z     standard deviation 
- tbodyaccmagmean            time      body   acceleration      magnitude       mean         
- tbodyaccmagstd             time      body   acceleration      magnitude standard deviation 
- tgravityaccmagmean         time     gravity acceleration      magnitude       mean         
- tgravityaccmagstd          time     gravity acceleration      magnitude standard deviation 
- tbodyaccjerkmagmean        time      body   acceleration jerk magnitude       mean         
- tbodyaccjerkmagstd         time      body   acceleration jerk magnitude standard deviation 
- tbodygyromagmean           time      body    gyroscopic       magnitude       mean         
- tbodygyromagstd            time      body    gyroscopic       magnitude standard deviation 
- tbodygyrojerkmagmean       time      body    gyroscopic  jerk magnitude       mean         
- tbodygyrojerkmagstd        time      body    gyroscopic  jerk magnitude standard deviation 
- fbodyaccmeanx            frequency   body   acceleration          X           mean         
- fbodyaccmeany            frequency   body   acceleration          Y           mean         
- fbodyaccmeanz            frequency   body   acceleration          Z           mean         
- fbodyaccstdx             frequency   body   acceleration          X     standard deviation 
- fbodyaccstdy             frequency   body   acceleration          Y     standard deviation 
- fbodyaccstdz             frequency   body   acceleration          Z     standard deviation 
- fbodyaccjerkmeanx        frequency   body   acceleration jerk     X           mean         
- fbodyaccjerkmeany        frequency   body   acceleration jerk     Y           mean         
- fbodyaccjerkmeanz        frequency   body   acceleration jerk     Z           mean         
- fbodyaccjerkstdx         frequency   body   acceleration jerk     X     standard deviation 
- fbodyaccjerkstdy         frequency   body   acceleration jerk     Y     standard deviation 
- fbodyaccjerkstdz         frequency   body   acceleration jerk     Z     standard deviation 
- fbodygyromeanx           frequency   body    gyroscopic           X           mean         
- fbodygyromeany           frequency   body    gyroscopic           Y           mean         
- fbodygyromeanz           frequency   body    gyroscopic           Z           mean         
- fbodygyrostdx            frequency   body    gyroscopic           X     standard deviation 
- fbodygyrostdy            frequency   body    gyroscopic           Y     standard deviation 
- fbodygyrostdz            frequency   body    gyroscopic           Z     standard deviation 
- fbodyaccmagmean          frequency   body   acceleration      magnitude       mean         
- fbodyaccmagstd           frequency   body   acceleration      magnitude standard deviation 
- fbodybodyaccjerkmagmean  frequency   body   acceleration jerk magnitude       mean         
- fbodybodyaccjerkmagstd   frequency   body   acceleration jerk magnitude standard deviation 
- fbodybodygyromagmean     frequency   body    gyroscopic       magnitude       mean         
- fbodybodygyromagstd      frequency   body    gyroscopic       magnitude standard deviation 
- fbodybodygyrojerkmagmean frequency   body    gyroscopic  jerk magnitude       mean         
- fbodybodygyrojerkmagstd  frequency   body    gyroscopic  jerk magnitude standard deviation 
+    Variable                  Domain   Relative   Device     Jerk Direction  Mean or St. Dev.  
+    =================         ======   ========   ======     ==== =========  ================  
+    tbodyaccmeanx              time      body   acceleration          X           mean         
+    tbodyaccmeany              time      body   acceleration          Y           mean         
+    tbodyaccmeanz              time      body   acceleration          Z           mean         
+    tbodyaccstdx               time      body   acceleration          X     standard deviation 
+    tbodyaccstdy               time      body   acceleration          Y     standard deviation 
+    tbodyaccstdz               time      body   acceleration          Z     standard deviation 
+    tgravityaccmeanx           time     gravity acceleration          X           mean         
+    tgravityaccmeany           time     gravity acceleration          Y           mean         
+    tgravityaccmeanz           time     gravity acceleration          Z           mean         
+    tgravityaccstdx            time     gravity acceleration          X     standard deviation 
+    tgravityaccstdy            time     gravity acceleration          Y     standard deviation 
+    tgravityaccstdz            time     gravity acceleration          Z     standard deviation 
+    tbodyaccjerkmeanx          time      body   acceleration jerk     X           mean         
+    tbodyaccjerkmeany          time      body   acceleration jerk     Y           mean         
+    tbodyaccjerkmeanz          time      body   acceleration jerk     Z           mean         
+    tbodyaccjerkstdx           time      body   acceleration jerk     X     standard deviation 
+    tbodyaccjerkstdy           time      body   acceleration jerk     Y     standard deviation 
+    tbodyaccjerkstdz           time      body   acceleration jerk     Z     standard deviation 
+    tbodygyromeanx             time      body    gyroscopic           X           mean         
+    tbodygyromeany             time      body    gyroscopic           Y           mean         
+    tbodygyromeanz             time      body    gyroscopic           Z           mean         
+    tbodygyrostdx              time      body    gyroscopic           X     standard deviation 
+    tbodygyrostdy              time      body    gyroscopic           Y     standard deviation 
+    tbodygyrostdz              time      body    gyroscopic           Z     standard deviation 
+    tbodygyrojerkmeanx         time      body    gyroscopic  jerk     X           mean         
+    tbodygyrojerkmeany         time      body    gyroscopic  jerk     Y           mean         
+    tbodygyrojerkmeanz         time      body    gyroscopic  jerk     Z           mean         
+    tbodygyrojerkstdx          time      body    gyroscopic  jerk     X     standard deviation 
+    tbodygyrojerkstdy          time      body    gyroscopic  jerk     Y     standard deviation 
+    tbodygyrojerkstdz          time      body    gyroscopic  jerk     Z     standard deviation 
+    tbodyaccmagmean            time      body   acceleration      magnitude       mean         
+    tbodyaccmagstd             time      body   acceleration      magnitude standard deviation 
+    tgravityaccmagmean         time     gravity acceleration      magnitude       mean         
+    tgravityaccmagstd          time     gravity acceleration      magnitude standard deviation 
+    tbodyaccjerkmagmean        time      body   acceleration jerk magnitude       mean         
+    tbodyaccjerkmagstd         time      body   acceleration jerk magnitude standard deviation 
+    tbodygyromagmean           time      body    gyroscopic       magnitude       mean         
+    tbodygyromagstd            time      body    gyroscopic       magnitude standard deviation 
+    tbodygyrojerkmagmean       time      body    gyroscopic  jerk magnitude       mean         
+    tbodygyrojerkmagstd        time      body    gyroscopic  jerk magnitude standard deviation 
+    fbodyaccmeanx            frequency   body   acceleration          X           mean         
+    fbodyaccmeany            frequency   body   acceleration          Y           mean         
+    fbodyaccmeanz            frequency   body   acceleration          Z           mean         
+    fbodyaccstdx             frequency   body   acceleration          X     standard deviation 
+    fbodyaccstdy             frequency   body   acceleration          Y     standard deviation 
+    fbodyaccstdz             frequency   body   acceleration          Z     standard deviation 
+    fbodyaccjerkmeanx        frequency   body   acceleration jerk     X           mean         
+    fbodyaccjerkmeany        frequency   body   acceleration jerk     Y           mean         
+    fbodyaccjerkmeanz        frequency   body   acceleration jerk     Z           mean         
+    fbodyaccjerkstdx         frequency   body   acceleration jerk     X     standard deviation 
+    fbodyaccjerkstdy         frequency   body   acceleration jerk     Y     standard deviation 
+    fbodyaccjerkstdz         frequency   body   acceleration jerk     Z     standard deviation 
+    fbodygyromeanx           frequency   body    gyroscopic           X           mean         
+    fbodygyromeany           frequency   body    gyroscopic           Y           mean         
+    fbodygyromeanz           frequency   body    gyroscopic           Z           mean         
+    fbodygyrostdx            frequency   body    gyroscopic           X     standard deviation 
+    fbodygyrostdy            frequency   body    gyroscopic           Y     standard deviation 
+    fbodygyrostdz            frequency   body    gyroscopic           Z     standard deviation 
+    fbodyaccmagmean          frequency   body   acceleration      magnitude       mean         
+    fbodyaccmagstd           frequency   body   acceleration      magnitude standard deviation 
+    fbodybodyaccjerkmagmean  frequency   body   acceleration jerk magnitude       mean         
+    fbodybodyaccjerkmagstd   frequency   body   acceleration jerk magnitude standard deviation 
+    fbodybodygyromagmean     frequency   body    gyroscopic       magnitude       mean         
+    fbodybodygyromagstd      frequency   body    gyroscopic       magnitude standard deviation 
+    fbodybodygyrojerkmagmean frequency   body    gyroscopic  jerk magnitude       mean         
+    fbodybodygyrojerkmagstd  frequency   body    gyroscopic  jerk magnitude standard deviation 
 
 
 Data comes from the Human Activity Recognition Using Smartphones Dataset
