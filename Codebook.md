@@ -14,6 +14,11 @@ Getting and Cleaning Data course. It is worth reading `READMED.md` too.
 68 columns, delimited by spaces. The first row gives variable names. 
 There is no column of rownames or rownumbers.
 
+`tidymeansandstds.txt` provides means and standard deviations 
+for individual observations. `tidymeansofmeansandstds.txt` takes 
+the averages of these means and standard deviations for 
+individuals undertaking particular activities.
+
 The first 2 columns identify the observation by the 
 individual undertaking a particular activity 
 while wearing a smartphone with acceleration and gyroscope monitors:  
@@ -156,6 +161,6 @@ Vitoria-Gasteiz, Spain. Dec 2012
 
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova.
+DITEN - Universitï¿½ degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 
